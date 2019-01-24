@@ -17,7 +17,7 @@ class PhotosDetailViewController: UIViewController, UIImagePickerControllerDeleg
         if theme == "Dark" {
             view.backgroundColor = .gray
         } else {
-            view.backgroundColor = .cyan
+            view.backgroundColor = .white
         }
     }
     
@@ -31,7 +31,6 @@ class PhotosDetailViewController: UIViewController, UIImagePickerControllerDeleg
         } else {
             navigationItem.title = "Add Photo"
         }
-        
     }
     
     func presentImagePickerController() {

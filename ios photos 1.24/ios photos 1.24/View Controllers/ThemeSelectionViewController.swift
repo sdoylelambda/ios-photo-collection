@@ -1,24 +1,25 @@
 import UIKit
 
-class PhotoDetailViewController: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
+class ThemeSelectionViewController: UIViewController {
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        updateViews()
+    var themeHelper: ThemeHelper?
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
     }
     
-    var photoController = PhotoController()
-    var themHelper: ThemeHelper?
-    var photo: Photo?
+    //Mark: - Outlets
     
-    func setTheme() {
-        guard let theme = ThemeHelper?.themePreference else { return }
-        
-        if theme = "Dark" {
-            view.backgroundColor = .gray
-        } else {
-            view.backgroundColor = .white
-        }
+    @IBAction func selectDarkTheme(_ sender: UIButton) {
+        themeHelper?.setThemePreferenceToDark()
+        dismiss(animated: true, completion: nil)
+    }
+    
+    @IBAction func selectIceTheme(_ sender: UIButton) {
+        themeHelper?.setThemePreferenceToLight()
+        dismiss(animated: true, completion: nil)
     }
     
 }
