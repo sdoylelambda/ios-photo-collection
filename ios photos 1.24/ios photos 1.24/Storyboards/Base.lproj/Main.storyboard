@@ -137,7 +137,7 @@
             </objects>
             <point key="canvasLocation" x="210" y="72"/>
         </scene>
-        <!--View Controller-->
+        <!--Title-->
         <scene sceneID="BlS-RC-WB4">
             <objects>
                 <viewController id="sXk-op-os7" sceneMemberID="viewController">
@@ -175,10 +175,13 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="IQd-vH-ToA"/>
                     </view>
+                    <navigationItem key="navigationItem" title="Title" id="gJc-Nt-CJJ">
+                        <barButtonItem key="rightBarButtonItem" title="Save" id="c3Y-O3-jhh"/>
+                    </navigationItem>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cHU-Dn-OrG" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1902" y="72"/>
+            <point key="canvasLocation" x="1922" y="94"/>
         </scene>
     </scenes>
 </document>
