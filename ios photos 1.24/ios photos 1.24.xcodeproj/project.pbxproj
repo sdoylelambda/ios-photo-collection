@@ -15,6 +15,8 @@
 		842C85E721FA52520067C2A5 /* Photo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C85E621FA52520067C2A5 /* Photo.swift */; };
 		842C85E921FA528D0067C2A5 /* PhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C85E821FA528D0067C2A5 /* PhotoController.swift */; };
 		842C85EB21FA55270067C2A5 /* ThemeHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C85EA21FA55270067C2A5 /* ThemeHelper.swift */; };
+		842C85ED21FA571E0067C2A5 /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C85EC21FA571E0067C2A5 /* PhotosCollectionViewController.swift */; };
+		842C85EF21FA581F0067C2A5 /* PhotosCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 842C85EE21FA581F0067C2A5 /* PhotosCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,8 @@
 		842C85E621FA52520067C2A5 /* Photo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Photo.swift; sourceTree = "<group>"; };
 		842C85E821FA528D0067C2A5 /* PhotoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoController.swift; sourceTree = "<group>"; };
 		842C85EA21FA55270067C2A5 /* ThemeHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeHelper.swift; sourceTree = "<group>"; };
+		842C85EC21FA571E0067C2A5 /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		842C85EE21FA581F0067C2A5 /* PhotosCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +70,8 @@
 				842C85D421FA3D420067C2A5 /* AppDelegate.swift */,
 				842C85D621FA3D420067C2A5 /* ViewController.swift */,
 				842C85D821FA3D420067C2A5 /* Main.storyboard */,
+				842C85EE21FA581F0067C2A5 /* PhotosCollectionViewCell.swift */,
+				842C85EC21FA571E0067C2A5 /* PhotosCollectionViewController.swift */,
 				842C85DB21FA3D430067C2A5 /* Assets.xcassets */,
 				842C85DD21FA3D430067C2A5 /* LaunchScreen.storyboard */,
 				842C85E021FA3D430067C2A5 /* Info.plist */,
@@ -145,8 +151,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				842C85E721FA52520067C2A5 /* Photo.swift in Sources */,
+				842C85EF21FA581F0067C2A5 /* PhotosCollectionViewCell.swift in Sources */,
 				842C85D721FA3D420067C2A5 /* ViewController.swift in Sources */,
 				842C85E921FA528D0067C2A5 /* PhotoController.swift in Sources */,
+				842C85ED21FA571E0067C2A5 /* PhotosCollectionViewController.swift in Sources */,
 				842C85EB21FA55270067C2A5 /* ThemeHelper.swift in Sources */,
 				842C85D521FA3D420067C2A5 /* AppDelegate.swift in Sources */,
 			);
