@@ -101,14 +101,14 @@
                                                 <rect key="frame" x="0.0" y="0.0" width="78" height="30"/>
                                                 <state key="normal" title="Light Mode"/>
                                                 <connections>
-                                                    <action selector="selectIceTheme:" destination="y39-Aa-eGC" eventType="touchUpInside" id="vmV-sb-3wY"/>
+                                                    <action selector="lightThemePressed:" destination="y39-Aa-eGC" eventType="touchUpInside" id="vmV-sb-3wY"/>
                                                 </connections>
                                             </button>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WLJ-Fw-qAI">
                                                 <rect key="frame" x="198" y="0.0" width="75" height="30"/>
                                                 <state key="normal" title="Dark Mode"/>
                                                 <connections>
-                                                    <action selector="selectDarkTheme:" destination="y39-Aa-eGC" eventType="touchUpInside" id="anc-Wi-eS8"/>
+                                                    <action selector="darkThemePressed:" destination="y39-Aa-eGC" eventType="touchUpInside" id="anc-Wi-eS8"/>
                                                 </connections>
                                             </button>
                                         </subviews>
